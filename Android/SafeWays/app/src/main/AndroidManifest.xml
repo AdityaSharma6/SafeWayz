@@ -11,9 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".CrimeFeature" />
+        <activity android:name=".CrimeFeature"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".DijkstraActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -29,17 +34,33 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="API-KEY-HERE" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Gmaps" />
-        <activity android:name=".DFS_PATHS" />
-        <activity android:name=".Gmaps_Dijkstra" />
-        <activity android:name=".DijkstraRoute"></activity>
+        <activity android:name=".Gmaps"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".DFS_PATHS"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Gmaps_Dijkstra"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".DijkstraRoute"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>
