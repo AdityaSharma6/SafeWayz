@@ -71,11 +71,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![YouTube Video Demo](Readme_Images/YouTube_Video_Img.png)](https://youtu.be/8cnLMpcupUE)
 
 SafeWayz is a mobile application that helps users find the safest route throughout the city of San Francisco!
 
-An Android mobile application as well as eclipse-terminal version are available for use.
+An Android mobile application as well as eclipse-terminal version are available for use. [Check out a demo of the application!](https://youtu.be/8cnLMpcupUE)
 
 The application was developed using the concepts of Data Structures & Algorithms and software development principles.
 
@@ -109,20 +108,22 @@ The Google Maps API was used to bring in core functionality into the mobile appl
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps. There are two different methods. We would recommend following either of the methods outlined in the [Android Application Installation Pathway](#android-application-installation). However, if you want to interact with the codebase and application via Eclipse, please follow the [Eclipse Installation Pathway](##eclipse-terminal-instructions)
 
 ### Android Application Installation 
-
-1. Clone the SafeWayz
+#### Method 1
+1. Clone the SafeWayz Repo
 ```sh
 git clone https://github.com/AdityaSharma6/SafeWayz.git
 ```
-
-#### Method 1
 2. Install the APK File. It is located [here](https://github.com/AdityaSharma6/SafeWayz/tree/master/Android/APK). 
 3. Copy this APK to your device internal storage. Then, using the file browser of your choice, install the application on your phone.
 
 #### Method 2
+1. Clone the SafeWayz
+```sh
+git clone https://github.com/AdityaSharma6/SafeWayz.git
+```
 2. Open this [folder](https://github.com/AdityaSharma6/SafeWayz/tree/master/Android/SafeWays) in Android Studio. The studio will automatically detect it and load the project.
 3. Make sure to have installed Android Studio SDK with minimum Android Version of 5.0
 4. For more indepth instructions, checkout the [QuickStart](https://github.com/AdityaSharma6/SafeWayz/tree/master/Instructions/Android-Instructions) guide.
@@ -152,8 +153,6 @@ See the [open issues](https://github.com/AdityaSharma6/SafeWayz/issues) for a li
 
 
 <!-- CONTRIBUTING -->
-
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
