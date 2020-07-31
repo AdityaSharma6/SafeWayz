@@ -1,5 +1,10 @@
 # Python Manipulation
 
+# Dependencies
+- Install Python3
+- pip3 install numpy
+- pip3 install pandas
+
 # Virtual Environment
 - pip3 install virtualenv
 - Navigate to the directory that you want to create the venv in 
